@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Sending data to server:', data);
 
         try {
-            const response = await fetch('/calculate', {
+            const response = await fetch('https://minimumtravelcost.onrender.com/calculate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
