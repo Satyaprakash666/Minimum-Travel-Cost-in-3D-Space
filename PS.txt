@@ -1,0 +1,29 @@
+Description: 
+Compute the minimum travel cost between cities in 3D space, avoiding cities under 
+maintenance. 
+Input: 
+• NN (cities), MM (tunnels). 
+• NN lines: x y zxyz (coordinates). 
+• MM lines: u v costuvcost. 
+• s dsd (source and destination). 
+• KK (maintenance cities), followed by KK indices. 
+Output: 
+Minimum cost or -1. 
+
+Sample Input: 
+5 5   
+0 0 0   
+3 0 0   
+6 0 0   
+0 4 0   
+3 4 0   
+1 2 3   
+2 3 3   
+1 4 4   
+4 5 2   
+2 5 4   
+1 5   
+1   
+3   
+Sample Output: 
+6
